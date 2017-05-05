@@ -11,7 +11,7 @@ npm i
 npm run compile
 ```
 
-This code was previously valid with `@types/react@15.0.23, but now fails with this error:
+This code was previously valid with `@types/react@15.0.23`, but now fails with this error:
 
 ```
 index.tsx(16,9): error TS2322: Type '{ children: Element; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<Row> & Readonly<{ children?: ReactNode; }> & Reado...'.
