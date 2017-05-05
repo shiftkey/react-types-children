@@ -11,6 +11,28 @@ npm i
 npm run compile
 ```
 
+Relevant code snippet:
+```
+export class Index extends React.Component<IIndexProps, void> {
+  public render() {
+    return (
+        <Row>
+            <span>things go here</span>
+        </Row>
+    )
+  }
+}
+```
+
+Where the props for `Row` look like this:
+
+```
+interface IRowProps {
+  readonly children?: ReadonlyArray<JSX.Element>
+}
+```
+
+
 This code was previously valid with `@types/react@15.0.23`, but now fails with this error:
 
 ```
