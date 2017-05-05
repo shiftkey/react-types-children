@@ -1,0 +1,19 @@
+{
+  "name": "react-types-children",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "typescript": "^2.3.2"
+  }
+}
